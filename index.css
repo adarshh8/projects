@@ -1,0 +1,40 @@
+/*types of selector*/
+/*1.Universal selector*/
+
+*{
+    background-color: pink;
+}
+
+/*element selector*/
+h3{
+    color: #da1a1a;
+}
+
+/*class selector*/
+.navigation{
+    background-color: green;
+    height: 50px;
+    color: white;
+}
+
+/*id selector*/
+#demo{
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/*group selector*/
+p,a{
+    font-size: 50px;
+}
+
+/*attribute selector*/
+input[type="text"]{
+    border: 1px solid red;
+}
+
+/*pseudo class selector*/
+a:hover{
+    color: orange;
+}

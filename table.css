@@ -1,0 +1,40 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: antiquewhite;
+}
+
+.table-container{
+    max-width: 800px;
+    background-color: white;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead{
+    background-color: blue;
+    color: white;
+}
+
+th, td{
+    padding: 10px;
+    text-align: center;
+    border: 1px solid greenyellow;
+}
+
+tr:hover{
+    background-color: green;
+}
+
+th{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+tfoot{
+    background-color: goldenrod;
+    color:rgb(78, 39, 162);
+}
